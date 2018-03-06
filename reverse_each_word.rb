@@ -7,6 +7,6 @@
 #end
 
 def reverse_each_word(sentence)
-  puts (sentence.split).collect {|word| word.reverse}
+  (sentence.split).collect {|word| word.reverse}
 
 end
